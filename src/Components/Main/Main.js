@@ -27,10 +27,10 @@ placeholder='Search for beer...'
 
   </div>
 
-{/* <div className='search-beer'>
+<div>
+{beer.name}
 
-  {beer.id}
-</div> */}
+</div> 
 </div>
 </div>);
 
