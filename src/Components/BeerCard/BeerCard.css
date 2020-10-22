@@ -14,9 +14,19 @@
     flex-wrap:wrap;
    
 }
- li{
-    background:lightslategrey;
+ #beerLi{
+    background:hsl(168, 22%, 41%);
     width: 300px;
     height: 300px;
     margin: 10px;
 } 
+#beer-fav
+{
+    position: relative;
+    left:75px;
+    bottom: 24px;
+color:white
+}
+#beer-fav:hover{
+    color:#f28e1c;
+}

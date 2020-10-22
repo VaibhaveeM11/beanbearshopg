@@ -12,16 +12,23 @@ import {
 function Header() {
   return (
     <div>
-    <Router>
-    <Switch>
-          {/* <Route exact path="/" component={Header}/> */}
-            </Switch>
-    </Router>
       <header className="head">
         <h1>Bean love bear<FontAwesomeIcon icon={faBeer} color='#f28e1c'></FontAwesomeIcon></h1>
-        <p>Home</p>
-        <p>Favourites</p>
-      </header>
+      <Router>
+      <Switch>
+        <Route></Route>
+        <Route></Route>
+      </Switch>
+             <ul className='HearUl'>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/Favourite'>Favourite</Link></li>
+              </ul>
+             </Router>
+             </header>
+
+      <div>
+      
+      </div>
     </div>
   );
 }
